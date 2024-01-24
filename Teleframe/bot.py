@@ -3,7 +3,7 @@ from telegram.ext import Updater, MessageHandler, Filters
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
 TOKEN = 'YOUR_BOT_TOKEN'
-PHOTO_FOLDER = '/home/pi/Teleframe/photos'
+PHOTO_FOLDER = '/home/pi/raspberrypi-telegrambot-frame/Teleframe/photos'
 
 def handle_images(update, context):
     message = update.message
