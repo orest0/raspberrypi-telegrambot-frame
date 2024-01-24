@@ -1,6 +1,6 @@
 # raspberrypi-telegrambot-frame
 
-Transform your Raspberry Pi into a smart PhotoFrame! Our project integrates a Telegram bot for easy photo uploads. Enjoy automated retrieval, customizable display, and remote control. Prioritize security and join our community for ongoing enhancements. Share memories effortlessly!
+Transform your Raspberry Pi into a smart PhotoFrame! My project integrates a Telegram bot for easy photo uploads. Enjoy automated retrieval, customizable display, and remote control. Prioritize security and join me for ongoing enhancements. Share memories effortlessly!
 
 ![___](https://github.com/orest0/raspberrypi-telegrambot-frame/assets/15201969/f5dc8739-d76e-4640-9237-8c4b39702765)
 
