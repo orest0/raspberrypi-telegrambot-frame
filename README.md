@@ -1,38 +1,42 @@
 # raspberrypi-telegrambot-frame
+
 Transform your Raspberry Pi into a smart PhotoFrame! Our project integrates a Telegram bot for easy photo uploads. Enjoy automated retrieval, customizable display, and remote control. Prioritize security and join our community for ongoing enhancements. Share memories effortlessly!
 
 ![___](https://github.com/orest0/raspberrypi-telegrambot-frame/assets/15201969/f5dc8739-d76e-4640-9237-8c4b39702765)
 
-----MANUAL INSTALLATION----
+## MANUAL INSTALLATION
 
-Take all these steps in CMD to create the PhotoFrame:
+If you want to build the photoframe, here's how to get started:
 
-sudo apt-get update
-sudo apt-get upgrade
+1. Open CMD and paste commands:
 
-sudo apt-get install feh
+        sudo apt-get update
+        sudo apt-get upgrade
+        sudo apt-get install feh
+        pip install python-telegram-bot==13.7 -break-system-packages
 
-pip install python-telegram-bot==13.7 -break-system-packages
+2. Then enter these commands
 
-cd
+        cd
+        git clone https://github.com/orest0/raspberrypi-telegrambot-frame.git
+        cd raspberrypi-telegrambot-frame/Teleframe
+        nano bot.py
 
-git clone https://github.com/orest0/raspberrypi-telegrambot-frame.git
-
-cd raspberrypi-telegrambot-frame/Teleframe
-
-nano bot.py
+!!ADD YOUR TELEGRAM BOT TOKEN!! in the 4-th lane
 
 <img width="480" alt="ADD_BOT_TOKEN" src="https://github.com/orest0/raspberrypi-telegrambot-frame/assets/15201969/0772ab1c-2931-471b-b400-1dbc9612edeb">
 
-!!ADD YOUR TELEGRAM BOT TOKEN!! in 4-th lane
+3. Change Save and Close
 
 Ctrl+X
 Y
 Ctrl+C
 
-sudo nano /etc/systemd/system/bot.service
+4. Create bot service
 
-____ADD THIS TO THE FILE____
+        sudo nano /etc/systemd/system/bot.service
+
+5. Add this to the file
 
 [Unit]
 Description=bot
@@ -50,18 +54,24 @@ WantedBy=multi-user.target
 
 ____________________________
 
+6. Change Save and Close
+
 Ctrl+X
 Y
 Ctrl+C
 
-sudo systemctl enable bot
-sudo systemctl start bot
+7. Enable the service
 
-!!UPLOAD FIRST PHOTO AND CHECK FOR REPLY!!
+        sudo systemctl enable bot
+        sudo systemctl start bot
 
-sudo nano /etc/systemd/system/frame.service
+!!UPLOAD THE FIRST PHOTO AND CHECK FOR A REPLY!!
 
-____ADD THIS TO THE FILE____
+8. Create a frame service
+
+        sudo nano /etc/systemd/system/frame.service
+
+9. Add this to the file
 
 [Unit]
 Description=frame
@@ -79,17 +89,23 @@ WantedBy=multi-user.target
 
 ____________________________
 
+10. Change Save and Close
+
 Ctrl+X
 Y
 Ctrl+C
 
-sudo systemctl enable frame
-sudo systemctl start frame
+11. Enable the service
 
-sudo apt-get install unclutter
-nano ~/.config/lxsession/LXDE-pi/autostart
+        sudo systemctl enable frame
+        sudo systemctl start frame
 
-____ADD THIS TO THE FILE____
+12. Disable cursor
+
+        sudo apt-get install unclutter
+        nano ~/.config/lxsession/LXDE-pi/autostart
+
+13. Add this to the file
 
 @unclutter -idle 0
 @xset s noblank
@@ -97,12 +113,12 @@ ____ADD THIS TO THE FILE____
 @xset -dpms
 ____________________________
 
+14. Change Save and Close
+
 Ctrl+X
 Y
 Ctrl+C
 
-sudo reboot
+15. Reboot and enjoy
 
-
-
-
+        sudo reboot
