@@ -22,7 +22,7 @@ If you want to build the photoframe, here's how to get started:
         cd raspberrypi-telegrambot-frame/Teleframe
         nano bot.py
 
-!!ADD YOUR TELEGRAM BOT TOKEN!! in the 4-th lane
+!!ADD YOUR TELEGRAM BOT TOKEN!! in the 5-th line
 
 <img width="480" alt="ADD_BOT_TOKEN" src="https://github.com/orest0/raspberrypi-telegrambot-frame/assets/15201969/0772ab1c-2931-471b-b400-1dbc9612edeb">
 
