@@ -38,21 +38,20 @@ Ctrl+C
 
 5. Add this to the file
 
-[Unit]
-Description=bot
-After=multi-user.target
+       [Unit]
+       Description=bot
+       After=multi-user.target
 
-[Service]
-Type=simple
-ExecStart=/usr/bin/python3 /home/pi/raspberrypi-telegrambot-frame/Teleframe/bot.py
-Restart=always
-RestartSec=10
-User=pi
+       [Service]
+       Type=simple
+       ExecStart=/usr/bin/python3 /home/pi/raspberrypi-telegrambot-frame/Teleframe/bot.py
+       Restart=always
+       RestartSec=10
+       User=pi
 
-[Install]
-WantedBy=multi-user.target
+       [Install]
+       WantedBy=multi-user.target
 
-____________________________
 
 6. Change Save and Close
 
