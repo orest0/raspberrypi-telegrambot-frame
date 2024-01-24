@@ -72,21 +72,19 @@ Ctrl+C
 
 9. Add this to the file
 
-[Unit]
-Description=frame
-After=multi-user.target
+       [Unit]
+       Description=frame
+       After=multi-user.target
 
-[Service]
-Type=simple
-ExecStart=/usr/bin/bash /home/pi/raspberrypi-telegrambot-frame/Teleframe/frame.sh
-Restart=always
-RestartSec=10
-User=pi
+       [Service]
+       Type=simple
+       ExecStart=/usr/bin/bash /home/pi/raspberrypi-telegrambot-frame/Teleframe/frame.sh
+       Restart=always
+       RestartSec=10
+       User=pi
 
-[Install]
-WantedBy=multi-user.target
-
-____________________________
+       [Install]
+       WantedBy=multi-user.target
 
 10. Change Save and Close
 
@@ -106,11 +104,10 @@ Ctrl+C
 
 13. Add this to the file
 
-@unclutter -idle 0
-@xset s noblank
-@xset s off
-@xset -dpms
-____________________________
+        @unclutter -idle 0
+        @xset s noblank
+        @xset s off
+        @xset -dpms
 
 14. Change Save and Close
 
