@@ -30,7 +30,7 @@ If you want to build the photoframe, here's how to get started:
 
 Ctrl+X
 Y
-Ctrl+C
+Enter
 
 4. Create bot service
 
@@ -57,7 +57,7 @@ Ctrl+C
 
 Ctrl+X
 Y
-Ctrl+C
+Enter
 
 7. Enable the service
 
@@ -90,7 +90,7 @@ Ctrl+C
 
 Ctrl+X
 Y
-Ctrl+C
+Enter
 
 11. Enable the service
 
@@ -113,7 +113,7 @@ Ctrl+C
 
 Ctrl+X
 Y
-Ctrl+C
+Enter
 
 15. Reboot and enjoy
 
