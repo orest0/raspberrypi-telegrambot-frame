@@ -26,9 +26,9 @@ If you want to build the photoframe, here's how to get started:
 
 <img width="480" alt="ADD_BOT_TOKEN" src="https://github.com/orest0/raspberrypi-telegrambot-frame/assets/15201969/0772ab1c-2931-471b-b400-1dbc9612edeb">
 
-3. Change Save and Close
+3. Change, Save and Close
 
-Ctrl+X --> Y --> Enter
+Ctrl+X / Y / Enter
 
 4. Create bot service
 
@@ -84,9 +84,7 @@ Ctrl+X / Y / Enter
 
 10. Change, Save and Close
 
-Ctrl+X
-Y
-Enter
+Ctrl+X / Y / Enter
 
 11. Enable the service
 
@@ -107,9 +105,7 @@ Enter
 
 14. Change, Save and Close
 
-        Ctrl+X
-        Y
-        Enter
+Ctrl+X / Y / Enter
 
 15. Reboot and enjoy
 
