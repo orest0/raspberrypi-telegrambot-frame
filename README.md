@@ -8,7 +8,7 @@ Transform your Raspberry Pi into a smart PhotoFrame! My project integrates a Tel
 
 If you want to build the photoframe, here's how to get started:
 
-1. Open CMD and paste commands:
+1. Open CMD and paste commands. Approve all downloads with " Y ":
 
         sudo apt-get update
         sudo apt-get upgrade
@@ -28,9 +28,7 @@ If you want to build the photoframe, here's how to get started:
 
 3. Change Save and Close
 
-Ctrl+X
-Y
-Enter
+Ctrl+X --> Y --> Enter
 
 4. Create bot service
 
@@ -53,11 +51,9 @@ Enter
        WantedBy=multi-user.target
 
 
-6. Change Save and Close
+6. Change, Save and Close
 
-Ctrl+X
-Y
-Enter
+Ctrl+X / Y / Enter
 
 7. Enable the service
 
@@ -86,7 +82,7 @@ Enter
        [Install]
        WantedBy=multi-user.target
 
-10. Change Save and Close
+10. Change, Save and Close
 
 Ctrl+X
 Y
@@ -109,11 +105,11 @@ Enter
         @xset s off
         @xset -dpms
 
-14. Change Save and Close
+14. Change, Save and Close
 
-Ctrl+X
-Y
-Enter
+        Ctrl+X
+        Y
+        Enter
 
 15. Reboot and enjoy
 
