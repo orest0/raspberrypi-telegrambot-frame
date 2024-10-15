@@ -11,9 +11,9 @@ If you want to build the photoframe, here's how to get started:
 1. Open CMD and paste commands. Approve all downloads with " Y ":
 
         sudo apt-get update
-        sudo apt-get upgrade
-        sudo apt-get install feh
-        pip install python-telegram-bot==13.7 -break-system-packages
+        sudo apt-get upgrade -y
+        sudo apt-get install feh -y
+        pip install python-telegram-bot==13.7 --break-system-packages
 
 2. Then enter these commands
 
